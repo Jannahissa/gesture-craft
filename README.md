@@ -51,8 +51,15 @@ Distinguishes between gestures that involve manipulating the spatial aspects of 
 
 ## Gesture Recognition Program
 
-- Pre.py (recognizes the recorded actions so that they can be implemented)
+- [cv.py](cv.py) (recognizes the recorded actions so that they can be implemented)
 - Data Preparation, Classifier Training, and Real-time Action Recognition are explained in detail.
+
+## Gameplay Program 
+- [pre.py](pre.py)
+- The program loads pre-recorded landmark data for various actions like walking, breaking/attacking, placing/using, jumping, and looking.
+- It combines the loaded landmark data into training and testing datasets and labels them accordingly.
+- The program establishes a connection to a Minecraft server (if available).
+- It defines functions for various actions like moving forward, breaking blocks, placing blocks, looking left and right, and jumping in the Minecraft world.
 
 ## Gameplay Design
 
