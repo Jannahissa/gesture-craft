@@ -46,7 +46,7 @@ Distinguishes between gestures that involve manipulating the spatial aspects of 
 
 ## Data Collection Program
 
-- Mp.py (media pipe action recorder and collector.)
+- [Mp.py](mp.py) (media pipe action recorder and collector.)
 - This code collects hand landmark data for different actions using a webcam and saves the data as numpy files for further analysis or training machine learning models.
 
 ## Gesture Recognition Program
