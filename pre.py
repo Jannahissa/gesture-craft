@@ -73,7 +73,7 @@ except Exception as e:
 
 player_pos = mc.player.getTilePos()
 
-keyboard = Controller()
+
 
 def move_forward():
     direction_pos = mc.player.getDirection()
@@ -223,7 +223,7 @@ while True:
                                 else:
                                     look_left()
                                     time.sleep(.5)
-                                Compare the differences in x-axis (diff_x) to decide whether to look left or right
+                                #Compare the differences in x-axis (diff_x) to decide whether to look left or right
                                 total_diff_x = sum(diff_x for diff_x, _ in landmarks_diff)
                                 x_coordinate = prev_landmarks.landmark[0].x
                                 if total_diff_x > 0:
